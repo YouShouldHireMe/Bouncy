@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	281DACF2163435280034F478 /* Bouncy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bouncy;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	281DAD04163435320034F478 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	281DAD05163435320034F478 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	281DAD09163436950034F478 /* BouncyViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
+			sepNavSelRange = "{343, 0}";
+			sepNavVisRange = "{41, 338}";
+		};
+	};
+	281DAD0A163436950034F478 /* BouncyViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 222}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	281DAD0E163437F50034F478 /* BouncyView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 260}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{20, 328}";
+		};
+	};
+	281DAD0F163437F50034F478 /* BouncyView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 338}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 344}";
+		};
+	};
+	281DAD1716343D2F0034F478 /* BouncyModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 286}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{32, 257}";
+		};
+	};
+	281DAD1816343D2F0034F478 /* BouncyModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1209}}";
+			sepNavSelRange = "{756, 0}";
+			sepNavVisRange = "{1274, 574}";
+		};
+	};
+	281DAD1F1634441E0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD1716343D2F0034F478 /* BouncyModel.h */;
+		name = "BouncyModel.h: 19";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 32;
+	};
+	281DAD201634441E0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD1816343D2F0034F478 /* BouncyModel.m */;
+		name = "BouncyModel.m: 28";
+		rLen = 0;
+		rLoc = 1904;
+		rType = 0;
+		vrLen = 238;
+		vrLoc = 157;
+	};
+	281DAD38163445950034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD0E163437F50034F478 /* BouncyView.h */;
+		name = "BouncyView.h: 15";
+		rLen = 0;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 20;
+	};
+	281DAD3D163448DA0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD0A163436950034F478 /* BouncyViewController.m */;
+		name = "BouncyViewController.m: 14";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	281DAD3E163448DA0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD09163436950034F478 /* BouncyViewController.h */;
+		name = "BouncyViewController.h: 19";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 41;
+	};
+	281DAD3F163448DA0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD0F163437F50034F478 /* BouncyView.m */;
+		name = "BouncyView.m: 13";
+		rLen = 0;
+		rLoc = 213;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	281DAD4A1635220F0034F478 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 281DAD1816343D2F0034F478 /* BouncyModel.m */;
+		name = "BouncyModel.m: 34";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 1274;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 281DACF2163435280034F478 /* Bouncy */;
+		activeTarget = 8D1107260486CEB800E47090 /* Bouncy */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Bouncy */,
+		);
+		codeSenseManager = 281DAD05163435320034F478 /* Code sense */;
+		executables = (
+			281DACF2163435280034F478 /* Bouncy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					151,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 372520232;
+			PBXWorkspaceStateSaveDate = 372520232;
+		};
+		perUserProjectItems = {
+			281DAD1F1634441E0034F478 /* PBXTextBookmark */ = 281DAD1F1634441E0034F478 /* PBXTextBookmark */;
+			281DAD201634441E0034F478 /* PBXTextBookmark */ = 281DAD201634441E0034F478 /* PBXTextBookmark */;
+			281DAD38163445950034F478 /* PBXTextBookmark */ = 281DAD38163445950034F478 /* PBXTextBookmark */;
+			281DAD3D163448DA0034F478 /* PBXTextBookmark */ = 281DAD3D163448DA0034F478 /* PBXTextBookmark */;
+			281DAD3E163448DA0034F478 /* PBXTextBookmark */ = 281DAD3E163448DA0034F478 /* PBXTextBookmark */;
+			281DAD3F163448DA0034F478 /* PBXTextBookmark */ = 281DAD3F163448DA0034F478 /* PBXTextBookmark */;
+			281DAD4A1635220F0034F478 /* PBXTextBookmark */ = 281DAD4A1635220F0034F478 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 281DAD04163435320034F478 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Bouncy */ = {
+		activeExec = 0;
+		executables = (
+			281DACF2163435280034F478 /* Bouncy */,
+		);
+	};
+}
