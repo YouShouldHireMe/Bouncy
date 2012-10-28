@@ -84,6 +84,52 @@ const NSInteger kBallSize = 48;
 	return self;
 }
 
+-(NSInteger) numberOfBalls
+{
+	return [_balls count]; 
+}
+
+-(CGRect)ballBounds:(NSInteger)whichBall
+{
+	return [[_balls objectAtIndex:whichBall] bounds];
+}
+
+-(void) updateBallPositions
+{
+	for (Ball* m_ball in _balls){
+		[m_ball updatePositionInBounds:_bounds];
+	}
+}
+
+-(void) createAndAddNewBall
+{
+	Ball* newBall;
+	int leftEdge = _bounds.origin.x;
+	int rightEdge = leftEdge + _bounds.size.width;
+	int topEdge = _bounds.origin.y;
+	int bottomEdge = topEdge + _bounds.size.height;
+	NSInteger xPos = leftEdge+random() % (rightEdge - leftEdge - kBallSize);
+	NSInteger yPos = topEdge + random() % (bottomEdge - topEdge - kBallSize);
+	NSInteger xVel = (random() % 800 - 400)/100;
+	NSInteger yVel = (random() % 800 - 400)/100;
+	[newBall initWithXPosition:xPos YPosition:yPos XVelocity:xVel YVelocity:yVel];
+	[_balls addObject:newBall];
+}
+
+- (void)changeNumberOfBalls:(NSInteger)newNumberOfBalls
+{
+	if (newNumberOfBalls < 0) {
+		return;
+	}
+	while (newNumberOfBalls != [self numberOfBalls]) {
+		if (newNumberOfBalls > [self numberOfBalls]) {
+			[self createAndAddNewBall];
+		} else if (newNumberOfBalls < [self numberOfBalls]) {
+			[_balls removeLastObject];
+		}
+	}
+}
+
 - (void)dealloc
 {
 	[_balls release];

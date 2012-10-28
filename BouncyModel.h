@@ -17,5 +17,10 @@
 }
 
 -(id) initWithBounds:(CGRect)rect;
+-(NSInteger) numberOfBalls;
+-(CGRect)ballBounds: (NSInteger)whichball;
+-(void)updateBallPositions;
+-(void)createAndAddNewBall;
+-(void)changeNumberOfBalls:(NSInteger)newNumberOfBalls;
 
 @end
