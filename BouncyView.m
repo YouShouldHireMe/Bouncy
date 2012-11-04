@@ -24,6 +24,7 @@
 	[[NSColor blackColor] setStroke];
 	NSBezierPath* framePath = [NSBezierPath bezierPathWithRect:[self bounds]];
     [framePath stroke];
+	NSInteger numberOfBalls = [_ourViewController askModelForNumberOfBalls];
 }
 
 @end

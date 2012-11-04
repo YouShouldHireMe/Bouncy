@@ -1,7 +1,7 @@
 TBouncy
 v7
 r0
-t373761677.373449
+t373763126.631280
 cCheck dependencies
 cProcessInfoPlistFile /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Info.plist Bouncy-Info.plist
 cCopyStringsFile /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -61,9 +61,9 @@ s348
 i<Cocoa/Cocoa.h>
 
 N/Users/vip/Documents/Bouncy/BouncyView.m
-c000000005096EF0C0000000000000226
-t1352068876
-s550
+c000000005096F4B60000000000000270
+t1352070326
+s624
 i"BouncyView.h"
 
 N/Users/vip/Documents/Bouncy/BouncyViewController.h
@@ -110,8 +110,8 @@ t1352068843
 s26288
 
 N/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o
-t1352068877
-s17416
+t1352070326
+s17584
 
 N/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyViewController.o
 t1352068843
@@ -122,7 +122,7 @@ t1350828611
 s4976
 
 N/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app
-t1352068877
+t1352070326
 s102
 
 N/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Info.plist
@@ -130,7 +130,7 @@ t1350828608
 s1281
 
 N/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy
-t1352068877
+t1352070326
 s30672
 
 N/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/PkgInfo
@@ -162,7 +162,7 @@ s1002
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies373761676#373761677#0(0"0(0#1#0"8615841920#0"0#
+lSLF07#2@18"Check dependencies373763126#373763126#0(0"0(0#1#0"8615331968#0"0#
 
 CCompileC build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyAppDelegate.o /Users/vip/Documents/Bouncy/BouncyAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s372521411.630709
@@ -191,8 +191,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@49"Compile /Users/vip/Documents/Bouncy/BouncyModel.m373761643#373761643#0(0"0(0#0#41"/Users/vip/Documents/Bouncy/BouncyModel.m8617196640#1323"    cd /Users/vip/Documents/Bouncy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-generated-files.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-own-target-headers.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-all-target-headers.hmap -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-project-headers.hmap -F/Users/vip/Documents/Bouncy/build/Debug -I/Users/vip/Documents/Bouncy/build/Debug/include -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources/x86_64 -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources -include /var/folders/+X/+XKB7yvfH5yJCXXXrDquMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-deaveyadefzsougsdykcyurozgnv/Bouncy_Prefix.pch -c /Users/vip/Documents/Bouncy/BouncyModel.m -o /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyModel.o0#
 
 CCompileC build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o /Users/vip/Documents/Bouncy/BouncyView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s373761676.989088
-e373761677.344029
+s373763126.182455
+e373763126.482430
 r1
 xCompileC
 xbuild/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o
@@ -201,7 +201,14 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /Users/vip/Documents/Bouncy/BouncyView.m373761676#373761677#0(0"0(0#0#40"/Users/vip/Documents/Bouncy/BouncyView.m8615792736#1321"    cd /Users/vip/Documents/Bouncy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-generated-files.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-own-target-headers.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-all-target-headers.hmap -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-project-headers.hmap -F/Users/vip/Documents/Bouncy/build/Debug -I/Users/vip/Documents/Bouncy/build/Debug/include -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources/x86_64 -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources -include /var/folders/+X/+XKB7yvfH5yJCXXXrDquMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-deaveyadefzsougsdykcyurozgnv/Bouncy_Prefix.pch -c /Users/vip/Documents/Bouncy/BouncyView.m -o /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o0#
+o/Users/vip/Documents/Bouncy/BouncyView.m: In function '-[BouncyView drawRect:]':
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: no '-askModelForNumberOfBalls' method found
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: (Messages without a matching method signature
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: will be assumed to return 'id' and accept
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: '...' as arguments.)
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: initialization makes integer from pointer without a cast
+o/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: unused variable 'numberOfBalls'
+lSLF07#2@48"Compile /Users/vip/Documents/Bouncy/BouncyView.m373763126#373763126#0(647"/Users/vip/Documents/Bouncy/BouncyView.m: In function '-[BouncyView drawRect:]':/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: no '-askModelForNumberOfBalls' method found/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: (Messages without a matching method signature/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: will be assumed to return 'id' and accept/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: '...' as arguments.)/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: initialization makes integer from pointer without a cast/Users/vip/Documents/Bouncy/BouncyView.m:27: warning: unused variable 'numberOfBalls'4(22@43"No '-askModelForNumberOfBalls' method found373763126#81#98#0(6@40"/Users/vip/Documents/Bouncy/BouncyView.m373763126#27#0#27#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)373763126#179#100#0(6@40"/Users/vip/Documents/Bouncy/BouncyView.m373763126#27#0#27#0#0"0(22@56"Initialization makes integer from pointer without a cast373763126#450#111#0(6@40"/Users/vip/Documents/Bouncy/BouncyView.m373763126#27#0#27#0#0"0(22@31"Unused variable 'numberOfBalls'373763126#561#86#0(6@40"/Users/vip/Documents/Bouncy/BouncyView.m373763126#27#0#27#0#19"unused variable '*'0(0#0#40"/Users/vip/Documents/Bouncy/BouncyView.m8612643232#1321"    cd /Users/vip/Documents/Bouncy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-generated-files.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-own-target-headers.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-all-target-headers.hmap -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-project-headers.hmap -F/Users/vip/Documents/Bouncy/build/Debug -I/Users/vip/Documents/Bouncy/build/Debug/include -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources/x86_64 -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources -include /var/folders/+X/+XKB7yvfH5yJCXXXrDquMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-deaveyadefzsougsdykcyurozgnv/Bouncy_Prefix.pch -c /Users/vip/Documents/Bouncy/BouncyView.m -o /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o0#
 
 CCompileC build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyViewController.o /Users/vip/Documents/Bouncy/BouncyViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s373761643.122018
@@ -247,14 +254,14 @@ xEnglish.lproj/InfoPlist.strings
 lSLF07#2@36"Copy English.lproj/InfoPlist.strings372521408#372521408#0(0"0(0#0#59"/Users/vip/Documents/Bouncy/English.lproj/InfoPlist.strings8622084480#342"    cd /Users/vip/Documents/Bouncy    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj0#
 
 CLd /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy normal x86_64
-s373761677.344098
-e373761677.371560
+s373763126.482547
+e373763126.629184
 r1
 xLd
 x/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy
 xnormal
 xx86_64
-lSLF07#2@77"Link /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy373761677#373761677#0(0"0(0#0#0"8615556768#482"    cd /Users/vip/Documents/Bouncy    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/vip/Documents/Bouncy/build/Debug -F/Users/vip/Documents/Bouncy/build/Debug -filelist /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/Bouncy.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy0#
+lSLF07#2@77"Link /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy373763126#373763126#0(0"0(0#0#0"8617305696#482"    cd /Users/vip/Documents/Bouncy    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/vip/Documents/Bouncy/build/Debug -F/Users/vip/Documents/Bouncy/build/Debug -filelist /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/Bouncy.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy0#
 
 CProcessInfoPlistFile /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Info.plist Bouncy-Info.plist
 s372521408.213697
@@ -279,10 +286,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile Bouncy_Prefix.pch372521408#372521411#0(0"0(0#0#45"/Users/vip/Documents/Bouncy/Bouncy_Prefix.pch8621860416#1227"    cd /Users/vip/Documents/Bouncy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-generated-files.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-own-target-headers.hmap -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-all-target-headers.hmap -iquote /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Bouncy-project-headers.hmap -F/Users/vip/Documents/Bouncy/build/Debug -I/Users/vip/Documents/Bouncy/build/Debug/include -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources/x86_64 -I/Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/DerivedSources -c /Users/vip/Documents/Bouncy/Bouncy_Prefix.pch -o /var/folders/+X/+XKB7yvfH5yJCXXXrDquMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-deaveyadefzsougsdykcyurozgnv/Bouncy_Prefix.pch.gch0#
 
 CTouch /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app
-s373761677.371631
-e373761677.373418
+s373763126.629407
+e373763126.631234
 r1
 xTouch
 x/Users/vip/Documents/Bouncy/build/Debug/Bouncy.app
-lSLF07#2@56"Touch /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app373761677#373761677#0(0"0(0#0#0"8614466944#108"    cd /Users/vip/Documents/Bouncy    /usr/bin/touch -c /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app0#
+lSLF07#2@56"Touch /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app373763126#373763126#0(0"0(0#0#0"8616457280#108"    cd /Users/vip/Documents/Bouncy    /usr/bin/touch -c /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app0#
 
