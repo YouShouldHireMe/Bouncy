@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* BouncyAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{162, 66}";
+			sepNavVisRange = "{0, 305}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* BouncyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 308}}";
+			sepNavSelRange = "{167, 35}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7C2E043D163DD59C008D0CAC /* Bouncy */;
+		activeTarget = 8D1107260486CEB800E47090 /* Bouncy */;
+		codeSenseManager = 7C2E0448163DD5A3008D0CAC /* Code sense */;
+		executables = (
+			7C2E043D163DD59C008D0CAC /* Bouncy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					372,
+					159,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 373761900;
+			PBXWorkspaceStateSaveDate = 373761900;
+		};
+		perUserProjectItems = {
+			7C2E045E163DD931008D0CAC = 7C2E045E163DD931008D0CAC /* PBXTextBookmark */;
+			7C2E0460163DD931008D0CAC = 7C2E0460163DD931008D0CAC /* PBXTextBookmark */;
+			7CCAAA0E1647238100E7BF9D = 7CCAAA0E1647238100E7BF9D /* PBXTextBookmark */;
+			7CCAAA1A1647238E00E7BF9D = 7CCAAA1A1647238E00E7BF9D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7C2E0447163DD5A3008D0CAC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7C2E043D163DD59C008D0CAC /* Bouncy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Bouncy;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7C2E0447163DD5A3008D0CAC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7C2E0448163DD5A3008D0CAC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7C2E045E163DD931008D0CAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* BouncyAppDelegate.m */;
+		name = "BouncyAppDelegate.m: 10";
+		rLen = 35;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	7C2E0460163DD931008D0CAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* BouncyAppDelegate.m */;
+		name = "BouncyAppDelegate.m: 10";
+		rLen = 35;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	7CCAAA0E1647238100E7BF9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: cannot find protocol declaration for 'NSApplicationDelegate'";
+		fRef = 256AC3D80F4B6AC300CF3369 /* BouncyAppDelegate.h */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	7CCAAA1A1647238E00E7BF9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* BouncyAppDelegate.h */;
+		name = "BouncyAppDelegate.h: 11";
+		rLen = 66;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* Bouncy */ = {
+		activeExec = 0;
+		executables = (
+			7C2E043D163DD59C008D0CAC /* Bouncy */,
+		);
+	};
+}
