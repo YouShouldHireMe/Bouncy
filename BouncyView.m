@@ -1,10 +1,3 @@
-//
-//  BouncyView.m
-//  Bouncy
-//
-//  Created by Huapeng Qi on 10/21/12.
-//  Copyright 2012 UC Berkeley. All rights reserved.
-//
 
 #import "BouncyView.h"
 
@@ -24,6 +17,12 @@
 	[[NSColor blackColor] setStroke];
 	NSBezierPath* framePath = [NSBezierPath bezierPathWithRect:[self bounds]];
     [framePath stroke];
+	NSInteger ballCount = [_ourViewController askModelForNumberOfBalls];
+	for(NSInteger i = 0; i < ballCount; i++){
+		CGRect ballBound = [_ourViewController askModelForBallBounds: i];
+		NSBezierPath* circlePath = [NSBezierPath bezierPathWithRect: ballBound];
+		[circlePath stroke];
+	}
 }
 
 @end
