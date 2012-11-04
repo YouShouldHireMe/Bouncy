@@ -21,7 +21,9 @@
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
-    // Drawing code here.
+	[[NSColor blackColor] setStroke];
+	NSBezierPath* framePath = [NSBezierPath bezierPathWithRect:[self bounds]];
+    [framePath stroke];
 }
 
 @end
