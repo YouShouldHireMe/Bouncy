@@ -1,12 +1,39 @@
+<<<<<<< HEAD
 ac5b8a960e1e944cb7679cdb71c3f070 4e8a065f73b3bc4bf4563bab718be292 ffffffffffffffffffffffffffffffff 102 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app
 8a8824088ef14c83d2b4232f20bb86e0 21f06217ede8c246da1d2bd82cb3732a ffffffffffffffffffffffffffffffff 30672 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy
 d0c7d3e9cd16146bb86280821237fdee 9f80aad29b79e27057a99c15221589c9 ffffffffffffffffffffffffffffffff 17584 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o
 d0c7d3e9cd1fa4a8b86280821237f313 e026992eef84b2ded54d9e86cca8474d ffffffffffffffffffffffffffffffff 26288 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyModel.o
 d0c7d3e9cd0d4c12b86280821237ff1a f0df5b672736ae29ae3eaf9cbddce65b ffffffffffffffffffffffffffffffff 20568 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyViewController.o
+=======
+e2c2ed2ac830572be6986da0b2b9c3b6 3b85366d747d9115c8e997c653fd83bc ffffffffffffffffffffffffffffffff 0 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o
+e2c2ed2ac82b3917e6986da0b2b9c603 d6faf6ad9a60018e5eca64acac5e3ced ffffffffffffffffffffffffffffffff 26288 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyModel.o
+e2c2ed2ac82b3917e6986da0b2b9c1a3 cf0e397e8b868b80575def01d2ba9253 ffffffffffffffffffffffffffffffff 20568 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyViewController.o
+e2c2ed2ac82b3917e6986da0b2b9c001 f3a36134c88d7edca4933336d9a2eac0 ffffffffffffffffffffffffffffffff 21064 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyAppDelegate.o
+e2c2ed2a98a6a4d1e6986da0b2b9c0a0 a261b12093d6e01d4de65688e6117313 ffffffffffffffffffffffffffffffff 4976 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/main.o
+ffffffffffffffffffffffffffffffff 9d940071684d6407723a14aa5ad0868b ffffffffffffffffffffffffffffffff 102 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app
+ffffffffffffffffffffffffffffffff 7d7405d1e3ed1762eaa3963c2b76832b ffffffffffffffffffffffffffffffff 30688 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy
+00000000104937ae000000000000016a e2c2ed2a98a6a4d1e6986da0b2b9c0da ffffffffffffffffffffffffffffffff 54306576 /var/folders/Q8/Q8mJoBzfG50VoWOMf7qiL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-dyoteypztozqpwdodlhfjpviwlqi/Bouncy_Prefix.pch.gch
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 34860 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/MainMenu.nib
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 92 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/InfoPlist.strings
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 8 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 1281 /Users/ansonwang/Desktop/Bouncy/build/Debug/Bouncy.app/Contents/Info.plist
+00000000104937ae000000000000016a 5079a437f215554d3e31e0ebe0843ab6 ffffffffffffffffffffffffffffffff 51179824 /var/folders/Q8/Q8mJoBzfG50VoWOMf7qiL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-fogsmnsjdenkhiangfsklxhhddpi/Bouncy_Prefix.pch.gch
+d19e2e2343cedd52e313092711ff3f7e 157976b82283c182521e1984d7b510ee ffffffffffffffffffffffffffffffff 0 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/i386/BouncyAppDelegate.o
+d19e2e2343cedd52e313092711ff397c 939f31d2855dc35b6eeadc61220478e0 ffffffffffffffffffffffffffffffff 16452 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/i386/BouncyModel.o
+d19e2e2343cedd52e313092711ff3fcf dcb8d36f97928668769a359f90e15ff9 ffffffffffffffffffffffffffffffff 14684 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/i386/BouncyView.o
+d19e2e2343cedd52e313092711ff3edc e585edcd8214323dff38dae9359b6bda ffffffffffffffffffffffffffffffff 14380 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/i386/BouncyViewController.o
+d19e2e2313434094e313092711ff3fdf 5463d81e88f9acde496439598ad0b15a ffffffffffffffffffffffffffffffff 4820 /Users/ansonwang/Desktop/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/i386/main.o
+000000001f965d0d0000000000006fb5 d19e2e2313434094e313092711ff3fa5 ffffffffffffffffffffffffffffffff 34665236 /var/folders/Q8/Q8mJoBzfG50VoWOMf7qiL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-gvpnrdqgqzsdrlezkpoyxwmhfegw/Bouncy_Prefix.pch.gch
+ac5b8a960e197a94b7679cdb71c39a6c 4e8a065f73b3bc4bf4563bab718be292 ffffffffffffffffffffffffffffffff 102 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app
+8a8824088ef12905d2b4232f20bb8e80 21f06217ede8c246da1d2bd82cb3732a ffffffffffffffffffffffffffffffff 24656 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/MacOS/Bouncy
+d0c7d3e9cd049d7fb86280821237f894 e026992eef84b2ded54d9e86cca8474d ffffffffffffffffffffffffffffffff 20536 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyModel.o
+d0c7d3e9cd04e280b86280821237fe27 9f80aad29b79e27057a99c15221589c9 ffffffffffffffffffffffffffffffff 15428 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyView.o
+d0c7d3e9cd04e6a8b86280821237ff34 f0df5b672736ae29ae3eaf9cbddce65b ffffffffffffffffffffffffffffffff 15332 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyViewController.o
+>>>>>>> a66cc4c53183a35dd411b2760157ce1df1d55712
 d0c7d3e9cd04ed80b86280821237fe96 e34c18fc6e4a419a5bd7da1e4064e3f5 ffffffffffffffffffffffffffffffff 21064 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/BouncyAppDelegate.o
 d0c7d3e99d871028b86280821237fe37 367a87862efe33f91ddbd4bc21891982 ffffffffffffffffffffffffffffffff 4976 /Users/vip/Documents/Bouncy/build/Bouncy.build/Debug/Bouncy.build/Objects-normal/x86_64/main.o
 00000000104757c0000000000000016a d0c7d3e99d871028b86280821237fe4d ffffffffffffffffffffffffffffffff 54306576 /var/folders/+X/+XKB7yvfH5yJCXXXrDquMU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bouncy_Prefix-deaveyadefzsougsdykcyurozgnv/Bouncy_Prefix.pch.gch
-00000000508476f6000000000002d91c 135ba5e2b87e58bcbd3b55eaca44cbb2 ffffffffffffffffffffffffffffffff 34860 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/MainMenu.nib
+000000005083fda8000000000002bb60 135ba5e2b87e58bcbd3b55eaca44cbb2 ffffffffffffffffffffffffffffffff 34367 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/MainMenu.nib
 000000005083fda8000000000000002d 1478696bd57ec96b02f5c1c6b78d1739 ffffffffffffffffffffffffffffffff 92 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Resources/English.lproj/InfoPlist.strings
 00000000000000000000000000000000 7c27c6db79b1cf693836197ddea47961 ffffffffffffffffffffffffffffffff 8 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/PkgInfo
 00000000000000000000000000000000 7c27c6db79b1cf693836197ddea47961 ffffffffffffffffffffffffffffffff 1281 /Users/vip/Documents/Bouncy/build/Debug/Bouncy.app/Contents/Info.plist
