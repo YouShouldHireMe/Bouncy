@@ -15,6 +15,11 @@
 @private
 	BouncyView* _ourView;
 	BouncyModel* _ourModel;
+	NSTimer* _timer;
 }
 @property(retain) IBOutlet BouncyView* _ourView;
+
+-(NSInteger)askModelForNumberOfBalls;
+-(CGRect)askModelForBallBounds:(NSInteger)whichBall;
+-(void)timeFireMethod:(NSTimer *)timer;
 @end

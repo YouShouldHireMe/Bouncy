@@ -112,7 +112,7 @@ const NSInteger kBallSize = 48;
 	NSInteger yPos = topEdge + random() % (bottomEdge - topEdge - kBallSize);
 	NSInteger xVel = (random() % 800 - 400)/100;
 	NSInteger yVel = (random() % 800 - 400)/100;
-	[newBall initWithXPosition:xPos YPosition:yPos XVelocity:xVel YVelocity:yVel];
+	newBall = [[Ball alloc] initWithXPosition:xPos YPosition:yPos XVelocity:xVel YVelocity:yVel];
 	[_balls addObject:newBall];
 }
 
