@@ -53,12 +53,12 @@ const NSInteger kBallSize = 48;
 	_xPosition += _xVelocity;
 	_yPosition += _yVelocity;
 	
-	if (_xPosition < leftEdge || _xPosition > rightEdge){
+	if (_xPosition - 20 < leftEdge || _xPosition + kBallSize + 20> rightEdge){
 		_xVelocity = -(_xVelocity);
 		_xPosition += _xVelocity;
 	}
 	
-	if (_yPosition < bottomEdge || _yPosition > topEdge) {
+	if (_yPosition -20 < bottomEdge || _yPosition + kBallSize + 20 > topEdge) {
 		_yVelocity = -(_yVelocity);
 		_yPosition += _yVelocity;
 	}

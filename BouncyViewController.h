@@ -13,7 +13,7 @@
 @interface BouncyViewController : NSViewController {
 
 @private
-	BouncyView* _ourView;
+	IBOutlet BouncyView* _ourView;
 	BouncyModel* _ourModel;
 	NSTimer* _timer;
 }

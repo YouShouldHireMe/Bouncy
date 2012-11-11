@@ -15,12 +15,13 @@
 -(void)awakeFromNib
 {
 	_ourModel = [[BouncyModel alloc] initWithBounds:[_ourView bounds]];
-	_timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/30)
+	_timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/100)
 											  target:self
-											selector:@selector(timeFireMethod)
+											selector:@selector(timeFireMethod:)
 											userInfo:nil
 											 repeats:YES];
 	[_ourModel createAndAddNewBall];
+	
 }
 
 -(NSInteger)askModelForNumberOfBalls

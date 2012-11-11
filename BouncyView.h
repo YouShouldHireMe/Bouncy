@@ -12,8 +12,8 @@
 @interface BouncyView : NSView {
 
 @private
-	BouncyViewController* _ourViewController;
+	IBOutlet BouncyViewController* _ourViewController;
 }
 
-@property (assign) IBOutlet BouncyViewController* _ourViewController;
+@property (retain) IBOutlet BouncyViewController* _ourViewController;
 @end
