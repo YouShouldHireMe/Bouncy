@@ -16,10 +16,14 @@
 	IBOutlet BouncyView* _ourView;
 	BouncyModel* _ourModel;
 	NSTimer* _timer;
+	bool _running;
 }
 @property(retain) IBOutlet BouncyView* _ourView;
 
 -(NSInteger)askModelForNumberOfBalls;
 -(CGRect)askModelForBallBounds:(NSInteger)whichBall;
 -(void)timeFireMethod:(NSTimer *)timer;
+-(IBAction)ballsSliderMoved:(NSSlider*) slider;
+-(IBAction)startsStopButtonPressed:(NSButton *) button;
+
 @end

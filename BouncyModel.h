@@ -22,5 +22,7 @@
 -(void)updateBallPositions;
 -(void)createAndAddNewBall;
 -(void)changeNumberOfBalls:(NSInteger)newNumberOfBalls;
+-(void)handleCollision;
+-(BOOL)CheckCollisionWith:(NSInteger)futureX andWith: (NSInteger)futureY using:(NSInteger)ballIndex;
 
 @end

@@ -21,7 +21,7 @@
 	for(NSInteger i = 0; i < ballCount; i++){
 		CGRect ballBound = [_ourViewController askModelForBallBounds: i];
 		NSBezierPath* circlePath = [NSBezierPath bezierPathWithOvalInRect: ballBound];
-		[circlePath setLineWidth:40.0];
+		[circlePath setLineWidth:2.0];
 		[circlePath stroke];
 	}
 }

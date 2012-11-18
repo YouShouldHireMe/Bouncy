@@ -15,6 +15,7 @@
 -(void)awakeFromNib
 {
 	_ourModel = [[BouncyModel alloc] initWithBounds:[_ourView bounds]];
+	_running = YES;
 	_timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/100)
 											  target:self
 											selector:@selector(timeFireMethod:)
@@ -36,7 +37,28 @@
 
 -(void)timeFireMethod:(NSTimer *)timer
 {
+	if (_running) {
+		[_ourModel handleCollision];
 	[_ourModel updateBallPositions];
 	[_ourView setNeedsDisplay:YES];
+	}
 }
+
+-(IBAction)ballsSliderMoved:(NSSlider*) sender
+{
+	NSLog(@"%@'s value is now %d",sender,[sender intValue]);
+	[_ourModel changeNumberOfBalls:[sender intValue]];
+}
+
+-(IBAction)startsStopButtonPressed:(NSButton *) sender
+{
+	_running = !_running;
+	if (_running) {
+		[sender setTitle:@"Stop"];
+	} else {
+		[sender setTitle:@"Start"];
+	}
+}
+
+	
 @end

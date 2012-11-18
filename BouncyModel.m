@@ -53,12 +53,12 @@ const NSInteger kBallSize = 48;
 	_xPosition += _xVelocity;
 	_yPosition += _yVelocity;
 	
-	if (_xPosition - 20 < leftEdge || _xPosition + kBallSize + 20> rightEdge){
+	if (_xPosition - 1 < leftEdge || _xPosition + kBallSize + 1> rightEdge){
 		_xVelocity = -(_xVelocity);
 		_xPosition += _xVelocity;
 	}
 	
-	if (_yPosition -20 < bottomEdge || _yPosition + kBallSize + 20 > topEdge) {
+	if (_yPosition -1 < bottomEdge || _yPosition + kBallSize + 1 > topEdge) {
 		_yVelocity = -(_yVelocity);
 		_yPosition += _yVelocity;
 	}
@@ -112,6 +112,10 @@ const NSInteger kBallSize = 48;
 	NSInteger yPos = topEdge + random() % (bottomEdge - topEdge - kBallSize);
 	NSInteger xVel = (random() % 800 - 400)/100;
 	NSInteger yVel = (random() % 800 - 400)/100;
+	while (xVel*yVel == 0) {
+		xVel = (random() % 800 - 400)/100;
+		yVel = (random() % 800 - 400)/100;
+	}
 	newBall = [[Ball alloc] initWithXPosition:xPos YPosition:yPos XVelocity:xVel YVelocity:yVel];
 	[_balls addObject:newBall];
 }
@@ -128,6 +132,56 @@ const NSInteger kBallSize = 48;
 			[_balls removeLastObject];
 		}
 	}
+}
+
+- (void)handleCollision
+{
+	if ([_balls count] > 1) {
+		for (NSInteger ballIndex = 0; ballIndex < [_balls count]; ballIndex ++){
+			Ball* ball = [_balls objectAtIndex:ballIndex];
+			NSInteger futureX = ball._xPosition + ball._xVelocity;
+			NSInteger futureY = ball._yPosition + ball._yVelocity;
+			if ([self CheckCollisionWith:futureX andWith:futureY using:ballIndex])
+				if ([self CheckCollisionWith:ball._xPosition andWith:futureY using:ballIndex]) {
+					ball._yVelocity = - (ball._yVelocity);
+				}
+				if ([self CheckCollisionWith:futureX andWith:ball._yPosition using:ballIndex]) {
+					ball._xVelocity = - (ball._xVelocity);
+				}
+		}
+	}
+}
+
+- (BOOL)CheckCollisionWith:(NSInteger)futureX andWith:(NSInteger)futureY using:(NSInteger)ballIndex
+{
+	NSInteger bottom = futureY;
+	NSInteger top = futureY + kBallSize;
+	NSInteger left = futureX;
+	NSInteger right = futureX + kBallSize;
+	for (NSInteger otherIndex = 0; otherIndex < [_balls count]; otherIndex++){
+		if (otherIndex != ballIndex) {
+			NSRect ballBound = [self ballBounds:otherIndex];
+			NSInteger otherBottom = ballBound.origin.y;
+			NSInteger otherTop = ballBound.origin.y + kBallSize;
+			NSInteger otherLeft = ballBound.origin.x;
+			NSInteger otherRight = ballBound.origin.x + kBallSize;
+			if (right < otherLeft) {
+				continue;
+			}
+			else if(left > otherRight){
+				continue;
+			}
+			else if (top < otherBottom){
+				continue;
+			}
+			else if (bottom > otherTop){
+				continue;
+			} else {
+				return YES;
+			}
+		}
+	}
+	return NO;
 }
 
 - (void)dealloc
